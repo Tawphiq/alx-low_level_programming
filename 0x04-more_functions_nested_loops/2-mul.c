@@ -1,16 +1,13 @@
 #include "main.h"
 /**
-*print_numbers - print 0123456789
-*
-*Return: void
-*/
+ * mul - returns the product of its parameters
+ * @a: int type number
+ * @b: int type number
+ * Return:0
+ */
 
-void print_numbers(void)
+
+int mul(int a, int b)
 {
-	char c;
-
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
+return (a * b);
+}
